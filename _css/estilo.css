@@ -1,0 +1,76 @@
+/* ========== Tela Inicial ========== */
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+
+/* ========== Jogo ========== */
+
+#pagina_inicial>table>tbody>tr>td {
+    padding: 0px 50px;
+}
+
+.alinhado {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+#palco_jogo {
+    margin: 10% auto;
+    text-align: center;
+    display: none;
+}
+
+#B-1 {
+    border: 2px solid gray;
+}
+
+#A-1 {
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+#C-1 {
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+#B-0 {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+#B-2 {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.tabela_jogo {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* ====== Nomes Jogadores ====== */
+
+#jogador1 {
+    border: none;
+    font-size: 20px;
+}
+
+#jogador2 {
+    border: none;
+    font-size: 20px;
+}

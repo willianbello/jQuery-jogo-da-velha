@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Jogo da velha</title>
+    <script src="_scripts/jquery-3.3.1.min.js"></script>
+    <script src="_scripts/jogo.js"></script>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+</head>
+
+<body>
+
+    <div id="pagina_inicial">
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="3" class="titulo">JOGO DA VELHA</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="_imagens/jogador_1.png" alt="jogador_1">
+                        <br>
+                        <input type="text" id="nomeJogador1" placeholder="Nome jogador 1" maxlength="12">
+                    </td>
+                    <td>
+                        <img src="_imagens/iniciar.png" alt="iniciar" id="btn_iniciar_jogo">
+                    </td>
+                    <td>
+                        <img src="_imagens/jogador_2.png" alt="jogador_2">
+                        <br>
+                        <input type="text" id="nomeJogador2" placeholder="Nome jogador 2" maxlength="12">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="palco_jogo">
+
+        <div class="alinhado">
+            <img src="_imagens/jogador_1.png" alt="jogador 1">
+            <br>
+            <input type="text" id="jogador1" readonly>
+        </div>
+
+        <div class="alinhado">
+            <table>
+                <tr id="A">
+                    <td>
+                        <div id="A-0" class="tabela_jogo jogada"></div>
+                    </td>
+
+                    <td>
+                        <div id="A-1" class="tabela_jogo jogada"></div>
+                    </td>
+
+                    <td>
+                        <div id="A-2" class="tabela_jogo jogada"></div>
+                    </td>
+                </tr>
+                <tr id="B">
+                    <td>
+                        <div id="B-0" class="tabela_jogo jogada"></div>
+                    </td>
+
+                    <td>
+                        <div id="B-1" class="tabela_jogo jogada"></div>
+                    </td>
+
+                    <td>
+                        <div id="B-2" class="tabela_jogo jogada"></div>
+                    </td>
+                </tr>
+                <tr id="C">
+                    <td>
+                        <div id="C-0" class="tabela_jogo jogada"></div>
+                    </td>
+
+                    <td>
+                        <div id="C-1" class="tabela_jogo jogada"></div>
+                    </td>
+
+                    <td>
+                        <div id="C-2" class="tabela_jogo jogada"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="alinhado">
+            <img src="_imagens/jogador_2.png" alt="jogador 2">
+            <br>
+            <input type="text" id="jogador2" readonly>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
